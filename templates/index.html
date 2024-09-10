@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to the Percentage Calculator</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 50px auto;
+    max-width: 400px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #555;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #218838;
+}
+.container {
+            max-width: 400px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .form-group button {
+            padding: 10px 15px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .form-group button:hover {
+            background-color: #218838;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the AI-DS Department</h1>
+        <p>Calculate percentages easily and accurately with our tool.</p>
+        <div class="container">
+            <h2>Enter Marks Subjects</h2>
+            <form action="/submit" method="post">
+                <div class="form-group">
+                    <label for="Science">Science:</label>
+                    <input type="number" id="science" name="science" min="0" max="100" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="Python">Python:</label>
+                    <input type="number" id="python" name="python" min="0" max="100" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="Maths">Maths:</label>
+                    <input type="number" id="maths" name="maths" min="0" max="100" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="Django">Django:</label>
+                    <input type="number" id="django" name="django" min="0" max="100" required>
+                </div>
+        
+                <div class="form-group">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+        
+    </div>
+</body>
+</html>
